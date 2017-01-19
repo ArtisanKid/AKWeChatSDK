@@ -41,5 +41,5 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
 
   s.libraries = 'c++','sqlite3','z'
-  s.vendored_libraries = 'AKWeChatSDK/Classes/WeChatSDK.a'
+  s.vendored_libraries = 'AKWeChatSDK/Classes/libWeChatSDK.a'
 end

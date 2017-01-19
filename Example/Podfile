@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AKWeChatSDK_Example' do
+  pod 'AKWeChatSDK', :path => '../'
+
+  target 'AKWeChatSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

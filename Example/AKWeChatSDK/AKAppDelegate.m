@@ -7,12 +7,14 @@
 //
 
 #import "AKAppDelegate.h"
+#import <AKWeChatSDK/WXApi.h>
 
 @implementation AKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [WXApi registerApp:nil];
     return YES;
 }
 

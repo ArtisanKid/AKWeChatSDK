@@ -37,9 +37,9 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'CoreTelephony','SystemConfiguration'
+  s.frameworks = 'CFNetwork','CoreTelephony','Security','SystemConfiguration'
+  s.libraries = 'c++','sqlite3','z'
   # s.dependency 'AFNetworking', '~> 2.3'
 
-  s.libraries = 'c++','sqlite3','z'
   s.vendored_libraries = 'AKWeChatSDK/Classes/libWeChatSDK.a'
 end

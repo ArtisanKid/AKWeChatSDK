@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'AKWeChatSDK/Classes/**/*.{h,m}'
-  s.preserve_paths = 'AKWeiboSDK/Classes/*.{txt,md,doc,docx,pdf}'
+  s.preserve_paths = 'AKWeChatSDK/Classes/*.{txt,md,doc,docx,pdf}'
   
   # s.resource_bundles = {
   #   'AKWeChatSDK' => ['AKWeChatSDK/Assets/*.png']
